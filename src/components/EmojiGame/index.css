@@ -1,0 +1,32 @@
+.emoji-game {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #9796f0, #fbc7d4);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-container {
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 20px;
+    background-color: #ffffff33;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.emoji-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .emoji-list {
+        justify-content: space-between;
+    }
+}
